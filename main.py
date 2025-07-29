@@ -1,4 +1,4 @@
-from produto import Produto
+from produto import LoteProduto
 from estoques import *
 from vendas import *
 
@@ -24,8 +24,8 @@ def menu():
             if validade_input:
                 from datetime import datetime
                 validade = datetime.strptime(validade_input, "%Y-%m-%d").date()
-            produto = Produto(codigo, nome, quantidade, preco, validade)
-            cadastrar_produto(produto)
+            produto = LoteProduto(codigo, nome, quantidade, preco, validade)
+            cadastrar_lote(produto)
             print("Produto cadastrado!")
 
         elif opcao == "2":
