@@ -1,0 +1,73 @@
+{
+  "estoque": {
+    "P001": [
+      {
+        "codigo": "P001",
+        "nome": "Arroz Integral",
+        "quantidade": 50,
+        "preco": 8.90,
+        "validade": "2023-12-31"
+      },
+      {
+        "codigo": "P001",
+        "nome": "Arroz Integral",
+        "quantidade": 30,
+        "preco": 8.90,
+        "validade": "2023-06-30"
+      }
+    ],
+    "P002": [
+      {
+        "codigo": "P002",
+        "nome": "Feijão Preto",
+        "quantidade": 40,
+        "preco": 7.50,
+        "validade": "2024-05-15"
+      }
+    ],
+    "P003": [
+      {
+        "codigo": "P003",
+        "nome": "Macarrão Espaguete",
+        "quantidade": 25,
+        "preco": 4.20,
+        "validade": "2023-03-01"
+      },
+      {
+        "codigo": "P003",
+        "nome": "Macarrão Espaguete",
+        "quantidade": 35,
+        "preco": 4.50,
+        "validade": "2025-12-28"
+      }
+    ],
+    "P004": [
+      {
+        "codigo": "P004",
+        "nome": "Óleo de Soja",
+        "quantidade": 20,
+        "preco": 9.80,
+        "validade": null
+      }
+    ],
+    "P005": [
+      {
+        "codigo": "P005",
+        "nome": "Café em Pó",
+        "quantidade": 15,
+        "preco": 12.90,
+        "validade": "2023-09-30"
+      }
+    ]
+  },
+  "vendas": [
+    {
+      "data": "2023-05-10T10:30:00",
+      "codigo": "P001",
+      "itens": [
+        ["Arroz Integral", 2, 8.90]
+      ],
+      "valor_total": 17.80
+    }
+  ]
+}
